@@ -1,0 +1,11 @@
+ pip install sentence-transformers scikit-learn numpy
+
+ pip install pyttsx3 speechrecognition vosk sentence-transformers scikit-learn numpy pyaudiopyttsx3
+
+
+speechrecognition
+vosk
+sentence-transformers
+scikit-learn
+numpy
+pyaudio
