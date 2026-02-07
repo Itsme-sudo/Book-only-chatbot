@@ -1,0 +1,82 @@
+ !#
+ pip install sentence-transformers scikit-learn numpy
+
+ pip install pyttsx3 speechrecognition vosk sentence-transformers scikit-learn numpy pyaudiopyttsx3
+
+
+speechrecognition
+vosk
+sentence-transformers
+scikit-learn
+numpy
+pyaudio
+
+
+python setup.py
+
+
+or use 
+the followed
+
+
+
+Step 4: How to Use
+
+Put your book content in book.txt. Each paragraph on a new line.
+
+Run the assistant:
+
+python assistant.py
+
+
+Speak your question clearly. Example:
+
+Who is the main character?
+What is photosynthesis?
+When did the event happen?
+
+
+Say “exit” to quit.
+
+How it Works
+
+Offline voice recognition using Vosk
+
+Embeddings for each paragraph of your book
+
+Cosine similarity finds the paragraph closest in meaning to your question
+
+Answers only from your book
+
+BookAI/
+ ├ assistant.py       # Main Python script
+  ├ book.txt           # Your book / content file
+   ├ model/             # Vosk offline speech model (download separately)
+    ├ requirements.txt   # Python dependencies
+     ├ setup.py           # Optional auto-setup script
+      └ README.md          # Instructions
+
+Example:
+book.txt
+
+Add your book/content here.
+
+One paragraph per line.
+
+Example:
+
+Alice was a curious girl who loved adventures.
+She followed a rabbit into a magical world.
+The Mad Hatter loved tea parties
+
+4️⃣ Download Vosk Model
+
+Download Vosk English Small Model: Vosk Models
+
+Extract to BookAI/model/
+
+BookAI/model/   <- contents of vosk model
+
+5️⃣ Optional setup.py (Auto-install script)
+
+This will install dependencies automatically and check PyAudio.
