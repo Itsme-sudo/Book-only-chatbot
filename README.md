@@ -14,7 +14,7 @@ This is an offline, voice-controlled AI assistant that answers questions only fr
 ## How to Use
 1. Install dependencies:
    ```bash
-   pip install -r requirement for chatbot.txt
+   pip install -r requirements.txt
 
 
 python assistant.py
