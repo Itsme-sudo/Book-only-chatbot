@@ -20,3 +20,6 @@ This is an offline, voice-controlled AI assistant that answers questions only fr
 python assistant.py
 <br>
 This only Stated so bugs may be appear 
+<br>
+pip install -r requirement for chatbot.txt
+do not use this
