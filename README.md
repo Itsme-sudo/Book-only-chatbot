@@ -18,3 +18,4 @@ This is an offline, voice-controlled AI assistant that answers questions only fr
 
 
 python assistant.py
+This only Stated so bugs may be appear 
